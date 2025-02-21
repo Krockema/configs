@@ -10,15 +10,14 @@
           "type": "sysinfo"
         },
         {
-          "background": "#FFDE57",
-          "foreground": "#111111",
+          "foreground": "#ff8800",
           "powerline_symbol": "\ue0b0",
           "properties": {
               "display_mode": "environment",
               "fetch_virtual_env": true,
               "home_enabled": true
           },
-          "style": "powerline",
+          "style": "diamond",
           "template": " \ue235 {{ if .Venv }}({{ .Venv }}){{ end }} ",
           "type": "python"
       },        
