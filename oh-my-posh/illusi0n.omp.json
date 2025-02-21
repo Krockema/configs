@@ -18,7 +18,7 @@
               "home_enabled": true
           },
           "style": "diamond",
-          "template": " \ue235 {{ if .Venv }}({{ .Venv }}){{ end }} ",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
           "type": "python"
       },        
       {
